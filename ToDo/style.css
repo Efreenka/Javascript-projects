@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(54, 90, 111);
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: snow;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.paper {
+    background: rgb(227, 245, 244);
+    border: 0;
+    height: 500px auto;
+    margin: 0 auto;
+    outline: none;
+    width: 800px;
+    min-height: 800px;
+}
+
+form {
+    text-align: center;
+} 
+
+input {
+    border: 0;
+    font-size: 15px;
+    outline: none;
+    padding: 7px;
+    width: 60%;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.submit {
+    color: snow;
+    background: rgb(105, 184, 213);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: 0.6;
+    width: 100px;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    background: rgb(124, 204, 222);
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.to-list {
+    background: rgb(105, 184, 213);
+    border: 0;
+    border-radius: 5px;
+    color: snow;
+    display: block;
+    font-size: 15px;
+    margin: 10px auto;
+    opacity: 0.6;
+    outline: none;
+    padding: 5px;
+    transition: 0.3;
+    width: 75%;
+}
+
+.to-list:hover {
+    background: rgb(124, 204, 222);
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3; 
+}
+
+.list-item {
+    display: flex;
+    margin: 7px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.item-buttons {
+    width: 30%;
+}
+
+.todo-list {
+    border: 0;
+    color: snow;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    text-align: center;
+    width: 800px;
+}
+
+.todo-list span {
+    color: rgb(11, 121, 121);
+    display: block;
+    font-size: 20px;
+    width: 70%;
+}
+
+.todo-list button {
+    background: rgb(123, 22, 5);
+    border: 0;
+    border-radius: 5px;
+    color: snow;
+    font-size: 15px;
+    opacity: 0.6;
+    outline: none;
+    padding: 5px 10px;
+    transition: 0.3;
+}
+
+.todo-list button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3;
+}
+
+.todo-list a {
+    background: rgb(164, 112, 15);
+    border: 0;
+    border-radius: 5px;
+    color: snow;
+    font-size: 15px;
+    margin-left: 15px;
+    opacity: 0.6;
+    outline: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: 0.3
+}
+
+.todo-list a:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3;
+}
+
+/* Edit stránka */
+#editedToDo {
+    width: 450px;
+}
+
+.edit-submit {
+    color: snow;
+    background: rgb(105, 184, 213);
+    border-radius: 5px;
+    margin-top: 10px;
+    opacity: 0.6;
+    width: 450px;
+    transition: 0.3s;
+}
+
+.edit-submit:hover {
+    background: rgb(124, 204, 222);
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.back {
+    background: rgb(5, 64, 101);
+    border: 0;
+    border-radius: 5px;
+    color: snow;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 0.6;
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3;
+    width: 100px;
+}
+
+.back:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3;
+}
